@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\OtM PC\\Downloads\\KLTN\\Code_KLTN\\backend\\KLTN\\Gateway\\KLTN.OcelotGateway\\KLTN.OcelotGateway.csproj": {}
+    "C:\\Users\\OtM PC\\Downloads\\KLTN\\KLTN\\backend\\KLTN\\Gateway\\KLTN.OcelotGateway\\KLTN.OcelotGateway.csproj": {}
   },
   "projects": {
-    "C:\\Users\\OtM PC\\Downloads\\KLTN\\Code_KLTN\\backend\\KLTN\\Gateway\\KLTN.OcelotGateway\\KLTN.OcelotGateway.csproj": {
+    "C:\\Users\\OtM PC\\Downloads\\KLTN\\KLTN\\backend\\KLTN\\Gateway\\KLTN.OcelotGateway\\KLTN.OcelotGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OtM PC\\Downloads\\KLTN\\Code_KLTN\\backend\\KLTN\\Gateway\\KLTN.OcelotGateway\\KLTN.OcelotGateway.csproj",
+        "projectUniqueName": "C:\\Users\\OtM PC\\Downloads\\KLTN\\KLTN\\backend\\KLTN\\Gateway\\KLTN.OcelotGateway\\KLTN.OcelotGateway.csproj",
         "projectName": "KLTN.OcelotGateway",
-        "projectPath": "C:\\Users\\OtM PC\\Downloads\\KLTN\\Code_KLTN\\backend\\KLTN\\Gateway\\KLTN.OcelotGateway\\KLTN.OcelotGateway.csproj",
+        "projectPath": "C:\\Users\\OtM PC\\Downloads\\KLTN\\KLTN\\backend\\KLTN\\Gateway\\KLTN.OcelotGateway\\KLTN.OcelotGateway.csproj",
         "packagesPath": "C:\\Users\\OtM PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OtM PC\\Downloads\\KLTN\\Code_KLTN\\backend\\KLTN\\Gateway\\KLTN.OcelotGateway\\obj\\",
+        "outputPath": "C:\\Users\\OtM PC\\Downloads\\KLTN\\KLTN\\backend\\KLTN\\Gateway\\KLTN.OcelotGateway\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

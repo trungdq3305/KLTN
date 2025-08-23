@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FE2yAKjKTFw=",
+  "dgSpecHash": "BHuBubdY9Gw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\OtM PC\\Downloads\\KLTN\\Code_KLTN\\backend\\KLTN\\Gateway\\KLTN.OcelotGateway\\KLTN.OcelotGateway.csproj",
+  "projectFilePath": "C:\\Users\\OtM PC\\Downloads\\KLTN\\KLTN\\backend\\KLTN\\Gateway\\KLTN.OcelotGateway\\KLTN.OcelotGateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\OtM PC\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
     "C:\\Users\\OtM PC\\.nuget\\packages\\ipaddressrange\\6.2.0\\ipaddressrange.6.2.0.nupkg.sha512",
