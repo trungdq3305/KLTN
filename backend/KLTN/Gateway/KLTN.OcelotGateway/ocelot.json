@@ -26,70 +26,7 @@
       "UpstreamHttpMethod": [ "GET", "PUT", "DELETE" ]
     },
 
-    //  ProductDetails:
-    {
-      "DownstreamPathTemplate": "/api/productdetails/by-product/{productId}",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 6001
-        }
-      ],
-      "UpstreamPathTemplate": "/api/productdetails/by-product/{productId}",
-      "UpstreamHttpMethod": [ "GET" ]
-    },
-    {
-      "DownstreamPathTemplate": "/api/productdetails",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 6001
-        }
-      ],
-      "UpstreamPathTemplate": "/api/productdetails",
-      "UpstreamHttpMethod": [ "GET", "POST" ]
-    },
-    {
-      "DownstreamPathTemplate": "/api/productdetails/{id}",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 6001
-        }
-      ],
-      "UpstreamPathTemplate": "/api/productdetails/{id}",
-      "UpstreamHttpMethod": [ "GET", "PUT", "DELETE" ]
-    },
-
-    // ===== TestService =====
-    {
-      "DownstreamPathTemplate": "/api/test",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 6002
-        }
-      ],
-      "UpstreamPathTemplate": "/api/test",
-      "UpstreamHttpMethod": [ "GET" ]
-    },
-    {
-      "DownstreamPathTemplate": "/api/test/products",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 6002
-        }
-      ],
-      "UpstreamPathTemplate": "/api/test/products",
-      "UpstreamHttpMethod": [ "GET" ]
-    },
-    // ===== Swagger qua Gateway (tuỳ chọn) =====
+    // ===== Swagger qua Gateway =====
     {
       "DownstreamPathTemplate": "/swagger/{everything}",
       "DownstreamScheme": "http",

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KLTN.OcelotGateway")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f8e84f0a2212f801ee98a39b3fd3a5d61541397")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aeda841ccd98fa360761b6e8c860757bfb999d24")]
 [assembly: System.Reflection.AssemblyProductAttribute("KLTN.OcelotGateway")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KLTN.OcelotGateway")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
