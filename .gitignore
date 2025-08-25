@@ -111,3 +111,31 @@ web/build/
 
 # Misc
 *.lock
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio cache & metadata
+*.db
+*.v2
+*.bin
+*.json
+*.cache
+*.bak
+
+# Copilot & IntelliSense
+CopilotIndices/
+DesignTimeBuild/
+ProjectEvaluation/
+
+# VS specific version folders
+.v17/

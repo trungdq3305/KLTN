@@ -8,10 +8,10 @@ namespace KLTN.Shared.DTOs
 {
     public class ProductDto
     {
-        public string? Id { get; set; }
+        //public string? Id { get; set; }
 
-        public string Name { get; set; } = null!;
+        //public string Name { get; set; } = null!;
 
-        public decimal Price { get; set; }
+        //public decimal Price { get; set; }
     }
 }

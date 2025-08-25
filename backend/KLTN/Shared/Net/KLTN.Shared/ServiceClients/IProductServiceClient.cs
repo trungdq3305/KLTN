@@ -9,6 +9,6 @@ namespace KLTN.Shared.ServiceClients
 {
     public interface IProductServiceClient
     {
-        Task<IEnumerable<ProductDto>> GetProductsAsync();
+        //Task<IEnumerable<ProductDto>> GetProductsAsync();
     }
 }

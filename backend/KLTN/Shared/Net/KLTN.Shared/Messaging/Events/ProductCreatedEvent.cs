@@ -8,7 +8,7 @@ namespace KLTN.Shared.Messaging.Events
 {
     public class ProductCreatedEvent
     {
-        public string Id { get; set; }
-        public string Name { get; set; }
+        //public string Id { get; set; }
+        //public string Name { get; set; }
     }
 }
