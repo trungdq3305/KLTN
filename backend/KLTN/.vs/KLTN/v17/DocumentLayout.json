@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\OtM PC\\Downloads\\KLTN\\KLTN\\backend\\KLTN\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{04079C99-5A5E-409D-B2E7-841607F8D8E5}|Services\\CoreService\\KLTN.CoreService.API\\KLTN.CoreService.API.csproj|c:\\users\\otm pc\\downloads\\kltn\\kltn\\backend\\kltn\\services\\coreservice\\kltn.coreservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{04079C99-5A5E-409D-B2E7-841607F8D8E5}|Services\\CoreService\\KLTN.CoreService.API\\KLTN.CoreService.API.csproj|solutionrelative:services\\coreservice\\kltn.coreservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF2985F7-3C61-4440-88F9-31F78437E468}|Services\\CoreService\\KLTN.CoreService.Test\\KLTN.CoreService.Test.csproj|c:\\users\\otm pc\\downloads\\kltn\\kltn\\backend\\kltn\\services\\coreservice\\kltn.coreservice.test\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF2985F7-3C61-4440-88F9-31F78437E468}|Services\\CoreService\\KLTN.CoreService.Test\\KLTN.CoreService.Test.csproj|solutionrelative:services\\coreservice\\kltn.coreservice.test\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96BF639D-9568-444C-AEF3-215E39E934DB}|Services\\CoreService\\KLTN.CoreService.Common\\KLTN.CoreService.Common.csproj|c:\\users\\otm pc\\downloads\\kltn\\kltn\\backend\\kltn\\services\\coreservice\\kltn.coreservice.common\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96BF639D-9568-444C-AEF3-215E39E934DB}|Services\\CoreService\\KLTN.CoreService.Common\\KLTN.CoreService.Common.csproj|solutionrelative:services\\coreservice\\kltn.coreservice.common\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90426E7A-9876-4F8B-85AE-B5363DE44E32}|Services\\CoreService\\KLTN.CoreService.Repository\\KLTN.CoreService.Repository.csproj|c:\\users\\otm pc\\downloads\\kltn\\kltn\\backend\\kltn\\services\\coreservice\\kltn.coreservice.repository\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90426E7A-9876-4F8B-85AE-B5363DE44E32}|Services\\CoreService\\KLTN.CoreService.Repository\\KLTN.CoreService.Repository.csproj|solutionrelative:services\\coreservice\\kltn.coreservice.repository\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C4E8D47-986E-4E2D-8E6C-6D840318EB0B}|Services\\CoreService\\KLTN.CoreService.Application\\KLTN.CoreService.Application.csproj|c:\\users\\otm pc\\downloads\\kltn\\kltn\\backend\\kltn\\services\\coreservice\\kltn.coreservice.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C4E8D47-986E-4E2D-8E6C-6D840318EB0B}|Services\\CoreService\\KLTN.CoreService.Application\\KLTN.CoreService.Application.csproj|solutionrelative:services\\coreservice\\kltn.coreservice.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{52B5A591-DEAC-4237-AE0A-87AA5F9944B4}|Shared\\Net\\KLTN.Shared\\KLTN.Shared.csproj|c:\\users\\otm pc\\downloads\\kltn\\kltn\\backend\\kltn\\shared\\net\\kltn.shared\\dtos\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52B5A591-DEAC-4237-AE0A-87AA5F9944B4}|Shared\\Net\\KLTN.Shared\\KLTN.Shared.csproj|solutionrelative:shared\\net\\kltn.shared\\dtos\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -50,11 +70,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\OtM PC\\Downloads\\KLTN\\KLTN\\backend\\KLTN\\Services\\CoreService\\KLTN.CoreService.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Services\\CoreService\\KLTN.CoreService.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\OtM PC\\Downloads\\KLTN\\KLTN\\backend\\KLTN\\Services\\CoreService\\KLTN.CoreService.API\\appsettings.json",
+              "RelativeToolTip": "Services\\CoreService\\KLTN.CoreService.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-25T12:59:10.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\OtM PC\\Downloads\\KLTN\\KLTN\\backend\\KLTN\\Services\\CoreService\\KLTN.CoreService.Test\\Class1.cs",
+              "RelativeDocumentMoniker": "Services\\CoreService\\KLTN.CoreService.Test\\Class1.cs",
+              "ToolTip": "C:\\Users\\OtM PC\\Downloads\\KLTN\\KLTN\\backend\\KLTN\\Services\\CoreService\\KLTN.CoreService.Test\\Class1.cs",
+              "RelativeToolTip": "Services\\CoreService\\KLTN.CoreService.Test\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T12:57:42.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\OtM PC\\Downloads\\KLTN\\KLTN\\backend\\KLTN\\Services\\CoreService\\KLTN.CoreService.Common\\Class1.cs",
+              "RelativeDocumentMoniker": "Services\\CoreService\\KLTN.CoreService.Common\\Class1.cs",
+              "ToolTip": "C:\\Users\\OtM PC\\Downloads\\KLTN\\KLTN\\backend\\KLTN\\Services\\CoreService\\KLTN.CoreService.Common\\Class1.cs",
+              "RelativeToolTip": "Services\\CoreService\\KLTN.CoreService.Common\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T12:57:18.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\OtM PC\\Downloads\\KLTN\\KLTN\\backend\\KLTN\\Services\\CoreService\\KLTN.CoreService.Repository\\Class1.cs",
+              "RelativeDocumentMoniker": "Services\\CoreService\\KLTN.CoreService.Repository\\Class1.cs",
+              "ToolTip": "C:\\Users\\OtM PC\\Downloads\\KLTN\\KLTN\\backend\\KLTN\\Services\\CoreService\\KLTN.CoreService.Repository\\Class1.cs",
+              "RelativeToolTip": "Services\\CoreService\\KLTN.CoreService.Repository\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T12:56:39.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\OtM PC\\Downloads\\KLTN\\KLTN\\backend\\KLTN\\Services\\CoreService\\KLTN.CoreService.Application\\Class1.cs",
+              "RelativeDocumentMoniker": "Services\\CoreService\\KLTN.CoreService.Application\\Class1.cs",
+              "ToolTip": "C:\\Users\\OtM PC\\Downloads\\KLTN\\KLTN\\backend\\KLTN\\Services\\CoreService\\KLTN.CoreService.Application\\Class1.cs",
+              "RelativeToolTip": "Services\\CoreService\\KLTN.CoreService.Application\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T12:56:09.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "IRabbitMQPublisher.cs",
               "DocumentMoniker": "C:\\Users\\OtM PC\\Downloads\\KLTN\\KLTN\\backend\\KLTN\\Shared\\Net\\KLTN.Shared\\Messaging\\IRabbitMQPublisher.cs",
               "RelativeDocumentMoniker": "Shared\\Net\\KLTN.Shared\\Messaging\\IRabbitMQPublisher.cs",
@@ -62,12 +147,11 @@
               "RelativeToolTip": "Shared\\Net\\KLTN.Shared\\Messaging\\IRabbitMQPublisher.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T12:28:49.847Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T12:28:49.847Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "RabbitMQPublisher.cs",
               "DocumentMoniker": "C:\\Users\\OtM PC\\Downloads\\KLTN\\KLTN\\backend\\KLTN\\Shared\\Net\\KLTN.Shared\\Messaging\\RabbitMQPublisher.cs",
               "RelativeDocumentMoniker": "Shared\\Net\\KLTN.Shared\\Messaging\\RabbitMQPublisher.cs",
@@ -75,12 +159,11 @@
               "RelativeToolTip": "Shared\\Net\\KLTN.Shared\\Messaging\\RabbitMQPublisher.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T12:28:47.136Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T12:28:47.136Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "BaseRabbitMQConsumer.cs",
               "DocumentMoniker": "C:\\Users\\OtM PC\\Downloads\\KLTN\\KLTN\\backend\\KLTN\\Shared\\Net\\KLTN.Shared\\Messaging\\BaseRabbitMQConsumer.cs",
               "RelativeDocumentMoniker": "Shared\\Net\\KLTN.Shared\\Messaging\\BaseRabbitMQConsumer.cs",
@@ -88,12 +171,11 @@
               "RelativeToolTip": "Shared\\Net\\KLTN.Shared\\Messaging\\BaseRabbitMQConsumer.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T12:28:44.182Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T12:28:44.182Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "ProductCreatedEvent.cs",
               "DocumentMoniker": "C:\\Users\\OtM PC\\Downloads\\KLTN\\KLTN\\backend\\KLTN\\Shared\\Net\\KLTN.Shared\\Messaging\\Events\\ProductCreatedEvent.cs",
               "RelativeDocumentMoniker": "Shared\\Net\\KLTN.Shared\\Messaging\\Events\\ProductCreatedEvent.cs",
@@ -101,12 +183,11 @@
               "RelativeToolTip": "Shared\\Net\\KLTN.Shared\\Messaging\\Events\\ProductCreatedEvent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T12:28:36.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T12:28:36.333Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "JwtTokenHelper.cs",
               "DocumentMoniker": "C:\\Users\\OtM PC\\Downloads\\KLTN\\KLTN\\backend\\KLTN\\Shared\\Net\\KLTN.Shared\\Helpers\\JwtTokenHelper.cs",
               "RelativeDocumentMoniker": "Shared\\Net\\KLTN.Shared\\Helpers\\JwtTokenHelper.cs",
@@ -114,12 +195,11 @@
               "RelativeToolTip": "Shared\\Net\\KLTN.Shared\\Helpers\\JwtTokenHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T12:28:27.828Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T12:28:27.828Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "ProductDto.cs",
               "DocumentMoniker": "C:\\Users\\OtM PC\\Downloads\\KLTN\\KLTN\\backend\\KLTN\\Shared\\Net\\KLTN.Shared\\DTOs\\ProductDto.cs",
               "RelativeDocumentMoniker": "Shared\\Net\\KLTN.Shared\\DTOs\\ProductDto.cs",
@@ -127,12 +207,11 @@
               "RelativeToolTip": "Shared\\Net\\KLTN.Shared\\DTOs\\ProductDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T12:28:03.347Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T12:28:03.347Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "AuthMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\OtM PC\\Downloads\\KLTN\\KLTN\\backend\\KLTN\\Shared\\Net\\KLTN.Shared\\Middleware\\AuthMiddleware.cs",
               "RelativeDocumentMoniker": "Shared\\Net\\KLTN.Shared\\Middleware\\AuthMiddleware.cs",
@@ -140,12 +219,11 @@
               "RelativeToolTip": "Shared\\Net\\KLTN.Shared\\Middleware\\AuthMiddleware.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T12:27:39.087Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T12:27:39.087Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "ProductServiceClient.cs",
               "DocumentMoniker": "C:\\Users\\OtM PC\\Downloads\\KLTN\\KLTN\\backend\\KLTN\\Shared\\Net\\KLTN.Shared\\ServiceClients\\ProductServiceClient.cs",
               "RelativeDocumentMoniker": "Shared\\Net\\KLTN.Shared\\ServiceClients\\ProductServiceClient.cs",
@@ -153,12 +231,11 @@
               "RelativeToolTip": "Shared\\Net\\KLTN.Shared\\ServiceClients\\ProductServiceClient.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T12:27:15.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T12:27:15.799Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "IProductServiceClient.cs",
               "DocumentMoniker": "C:\\Users\\OtM PC\\Downloads\\KLTN\\KLTN\\backend\\KLTN\\Shared\\Net\\KLTN.Shared\\ServiceClients\\IProductServiceClient.cs",
               "RelativeDocumentMoniker": "Shared\\Net\\KLTN.Shared\\ServiceClients\\IProductServiceClient.cs",
@@ -166,18 +243,17 @@
               "RelativeToolTip": "Shared\\Net\\KLTN.Shared\\ServiceClients\\IProductServiceClient.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T12:27:15.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T12:27:15.119Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "MongoDbSettings.cs",
               "DocumentMoniker": "C:\\Users\\OtM PC\\Downloads\\KLTN\\KLTN\\backend\\KLTN\\Shared\\Net\\KLTN.Shared\\DTOs\\MongoDbSettings.cs",
               "RelativeDocumentMoniker": "Shared\\Net\\KLTN.Shared\\DTOs\\MongoDbSettings.cs",
               "ToolTip": "C:\\Users\\OtM PC\\Downloads\\KLTN\\KLTN\\backend\\KLTN\\Shared\\Net\\KLTN.Shared\\DTOs\\MongoDbSettings.cs",
               "RelativeToolTip": "Shared\\Net\\KLTN.Shared\\DTOs\\MongoDbSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-25T12:27:02.479Z",
               "EditorCaption": ""
