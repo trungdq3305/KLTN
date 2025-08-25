@@ -139,4 +139,13 @@ ProjectEvaluation/
 
 # VS specific version folders
 .v17/
+# Visual Studio
+.vs/
+.vs/**
 
+# Visual Studio specific version folders
+.v17/
+.v17/**
+
+# Document layout and cache files
+**/DocumentLayout.json

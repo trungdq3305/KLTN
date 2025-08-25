@@ -11,7 +11,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using KLTN.Shared.ServiceClients;
+
 
 namespace KLTN.Shared.Extensions
 {
@@ -33,21 +33,20 @@ namespace KLTN.Shared.Extensions
                 return client.GetDatabase(settings.DatabaseName);
             });
 
-            services.AddHttpClient<IProductServiceClient, ProductServiceClient>(client =>
-            {
-                var baseUrl = configuration["ServiceUrls:ProductService"];
-                client.BaseAddress = new Uri(baseUrl);
-            })
-            .AddPolicyHandler(HttpPolicyExtensions
-                .HandleTransientHttpError()
-                .WaitAndRetryAsync(3, retryAttempt =>
-                    TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)))) // Retry với backoff
-            .AddPolicyHandler(HttpPolicyExtensions
-                .HandleTransientHttpError()
-                .CircuitBreakerAsync(5, TimeSpan.FromSeconds(30)));
+            //services.AddHttpClient<IProductServiceClient, ProductServiceClient>(client =>
+            //{
+            //    var baseUrl = configuration["ServiceUrls:CoreService"];
+            //    client.BaseAddress = new Uri(baseUrl);
+            //})
+            //.AddPolicyHandler(HttpPolicyExtensions
+            //    .HandleTransientHttpError()
+            //    .WaitAndRetryAsync(3, retryAttempt =>
+            //        TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)))) // Retry với backoff
+            //.AddPolicyHandler(HttpPolicyExtensions
+            //    .HandleTransientHttpError()
+            //    .CircuitBreakerAsync(5, TimeSpan.FromSeconds(30)));
 
-            // Sau này muốn thêm HttpClient khác thì add ở đây
-            // services.AddHttpClient<IOtherServiceClient, OtherServiceClient>(...);
+            
 
             return services;
         }
