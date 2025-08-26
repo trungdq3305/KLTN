@@ -47,11 +47,6 @@ artifacts/
 .vs/
 Generated_Code/
 
-## Secrets (optional)
-secrets.json
-appsettings.Development.json
-appsettings.Local.json
-
 ## Others
 *.tmp
 *.bak
@@ -128,7 +123,6 @@ web/build/
 *.db
 *.v2
 *.bin
-*.json
 *.cache
 *.bak
 
