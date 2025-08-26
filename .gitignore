@@ -1,78 +1,52 @@
-## Build results
+# ===== .NET =====
 bin/
 obj/
 out/
-
-## User-specific files
 *.user
 *.userosscache
 *.suo
 *.sln.docstates
-
-## Rider
-.idea/
-
-## VS Code
-.vscode/
-
-## Logs
 *.log
-
-## EF Core tools auto-generated
-**/Migrations/*Designer.cs
-**/Migrations/*.csproj.*
-**/Migrations/*.Snapshot.cs
-
-## Database files
-*.mdf
-*.ldf
-*.sqlite
-*.db
-
-## OS files
-.DS_Store
-Thumbs.db
-
-## NuGet
-*.nupkg
-*.snupkg
-.nuget/
-packages/
-project.lock.json
-project.fragment.lock.json
-artifacts/
-
-## Visual Studio
-*.vs/
-.vs/
-Generated_Code/
-
-## Others
 *.tmp
 *.bak
 *.swp
 *.orig
 *.rej
 
-## Dotnet tools
-tools/
+# Visual Studio cache
+.vs/
+Generated_Code/
 
-# ===== NESTJS =====
+# EF Core snapshots
+**/Migrations/*Designer.cs
+**/Migrations/*.Snapshot.cs
+
+# NuGet packages & artifacts
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+artifacts/
+
+# Database files
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# ===== Node.js (NestJS / React) =====
 node_modules/
 dist/
-coverage/
-.env
-.env.*.local
-
-# ===== REACT =====
-node_modules/
 build/
 coverage/
 *.env
 *.env.*.local
 
-# ===== FLUTTER =====
-# Flutter/Dart/Pub
+# ===== Flutter =====
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
@@ -80,66 +54,13 @@ coverage/
 .pub-cache/
 .pub/
 build/
-
-# Generated files
-ios/Flutter/Flutter.framework
-ios/Flutter/Flutter.podspec
-ios/Flutter/App.framework
-ios/Flutter/engine/
-ios/.generated/
-ios/Flutter/Generated.xcconfig
-ios/Flutter/ephemeral/
-
-# Android
-android/.gradle/
-android/local.properties
-android/**/GeneratedPluginRegistrant.java
-
-# iOS/XCode
 ios/Pods/
 ios/.symlinks/
-ios/Podfile.lock
+ios/Flutter/Generated.xcconfig
+android/.gradle/
+android/local.properties
 
-# Web
-web/.dart_tool/
-web/build/
-
-# Misc
-*.lock
-
-# Visual Studio
-.vs/
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-# Build results
-[Bb]in/
-[Oo]bj/
-[Ll]og/
-
-# Visual Studio cache & metadata
-*.db
-*.v2
-*.bin
-*.cache
-*.bak
-
-# Copilot & IntelliSense
+# ===== Misc =====
 CopilotIndices/
 DesignTimeBuild/
 ProjectEvaluation/
-
-# VS specific version folders
-.v17/
-# Visual Studio
-.vs/
-.vs/**
-
-# Visual Studio specific version folders
-.v17/
-.v17/**
-
-# Document layout and cache files
-**/DocumentLayout.json
