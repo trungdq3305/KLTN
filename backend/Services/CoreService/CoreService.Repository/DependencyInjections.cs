@@ -15,6 +15,9 @@ namespace CoreService.Repository
         {
 
             services.AddScoped<IAccountRepository, AccountRepository>();
+            services.AddScoped<IParkingLotOperatorRepository, ParkingLotOperatorRepository>();
+            services.AddScoped<IDriverRepository, DriverRepository>();
+            services.AddScoped<ICityAdminRepository, CityAdminRepository>();
 
             return services;
         }

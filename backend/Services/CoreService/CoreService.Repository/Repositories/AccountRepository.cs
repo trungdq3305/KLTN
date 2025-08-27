@@ -22,14 +22,22 @@ namespace CoreService.Repository.Repositories
             _users = database.GetCollection<Account>("Account");
         }
 
-        public async Task<Account?> GetByEmailAsync(string email)
-        {
-            return await _users.Find(u => u.Email == email).FirstOrDefaultAsync();
-        }
+        public async Task<Account?> GetByIdAsync(string id) =>
+            await _users.Find(u => u.Id == id).FirstOrDefaultAsync();
 
-        public async Task AddAsync(Account user)
-        {
+        public async Task<Account?> GetByEmailAsync(string email) =>
+            await _users.Find(u => u.Email == email).FirstOrDefaultAsync();
+
+        public async Task<IEnumerable<Account>> GetAllAsync() =>
+            await _users.Find(_ => true).ToListAsync();
+
+        public async Task AddAsync(Account user) =>
             await _users.InsertOneAsync(user);
-        }
+
+        public async Task UpdateAsync(Account user) =>
+            await _users.ReplaceOneAsync(u => u.Id == user.Id, user);
+
+        public async Task DeleteAsync(string id) =>
+            await _users.DeleteOneAsync(u => u.Id == id);
     }
 }

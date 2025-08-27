@@ -8,13 +8,19 @@ using System.Threading.Tasks;
 
 namespace CoreService.Repository.Models
 {
-    public class Role
+    public class Driver
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; }
 
-        public string RoleName { get; set; }
+        public string AccountId { get; set; }
+
+        public string FullName { get; set; }
+
+        public int CreditPoint { get; set; }
+
+        public decimal AccumulatedPoints { get; set; }
 
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
