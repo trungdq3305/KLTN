@@ -1,54 +1,42 @@
 {
   "Routes": [
-    // ===== ProductService CRUD =====
-    //{
-    //  "DownstreamPathTemplate": "/api/products",
-    //  "DownstreamScheme": "http",
-    //  "DownstreamHostAndPorts": [
-    //    {
-    //      "Host": "localhost",
-    //      "Port": 6001
-    //    }
-    //  ],
-    //  "UpstreamPathTemplate": "/api/Products",
-    //  "UpstreamHttpMethod": [ "GET", "POST" ]
-    //},
-    //{
-    //  "DownstreamPathTemplate": "/api/products/{id}",
-    //  "DownstreamScheme": "http",
-    //  "DownstreamHostAndPorts": [
-    //    {
-    //      "Host": "localhost",
-    //      "Port": 6001
-    //    }
-    //  ],
-    //  "UpstreamPathTemplate": "/api/products/{id}",
-    //  "UpstreamHttpMethod": [ "GET", "PUT", "DELETE" ]
-    //},
-
-    // ===== Swagger qua Gateway =====
+    // ===== CoreService (AuthController) =====
     {
-      "DownstreamPathTemplate": "/swagger/{everything}",
+      "DownstreamPathTemplate": "/api/auth/login",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 6001
+          "Port": 1001
         }
       ],
-      "UpstreamPathTemplate": "/product/swagger/{everything}",
-      "UpstreamHttpMethod": [ "GET" ]
+      "UpstreamPathTemplate": "/core/auth/login",
+      "UpstreamHttpMethod": [ "POST" ]
     },
     {
+      "DownstreamPathTemplate": "/api/auth/register",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1001
+        }
+      ],
+      "UpstreamPathTemplate": "/core/auth/register",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+
+    // ===== Swagger cho CoreService =====
+    {
       "DownstreamPathTemplate": "/swagger/{everything}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 6002
+          "Port": 1001
         }
       ],
-      "UpstreamPathTemplate": "/test/swagger/{everything}",
+      "UpstreamPathTemplate": "/core/swagger/{everything}",
       "UpstreamHttpMethod": [ "GET" ]
     }
   ],
