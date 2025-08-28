@@ -7,6 +7,8 @@ import { JwtModule } from '@nestjs/jwt'
 import { PassportModule } from '@nestjs/passport'
 import { JwtStrategy } from './strategy/jwt.strategy'
 import { JwtAuthGuard } from './guard/jwtAuth.guard'
+import { WardModule } from './module/ward/ward.module'
+import { AddressModule } from './module/address/address.module'
 @Module({
   imports: [
     ConfigModule.forRoot({
@@ -23,6 +25,8 @@ import { JwtAuthGuard } from './guard/jwtAuth.guard'
         // Bạn không cần signOptions ở đây vì service này không tạo token
       }),
     }),
+    WardModule,
+    AddressModule,
   ],
   controllers: [AppController],
   providers: [AppService, JwtStrategy, JwtAuthGuard],
