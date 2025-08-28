@@ -12,7 +12,6 @@ namespace KLTN.CoreService.API.Controllers
     public class AuthController : ControllerBase
     {
         private readonly IAuthApplication _authApplication;
-
         public AuthController(IAuthApplication authApplication)
         {
             _authApplication = authApplication;

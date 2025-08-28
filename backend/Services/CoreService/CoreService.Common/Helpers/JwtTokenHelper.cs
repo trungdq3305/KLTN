@@ -31,8 +31,9 @@ namespace CoreService.Common.Helpers
             };
             var claims = new[]
             {
-                new Claim(ClaimTypes.Email, acc.Email),
-                new Claim(ClaimTypes.Role, roleName)
+                new Claim("id", acc.Id.ToString()),   
+                new Claim("email", acc.Email),        
+                new Claim("role", roleName)           
             };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
