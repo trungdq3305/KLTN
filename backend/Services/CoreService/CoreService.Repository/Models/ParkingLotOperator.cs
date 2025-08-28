@@ -13,12 +13,20 @@ namespace CoreService.Repository.Models
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; }
-
+        [BsonRepresentation(BsonType.ObjectId)]
         public string AccountId { get; set; }
+        [BsonRepresentation(BsonType.ObjectId)]
+        public string AddressId { get; set; }
 
         public string FullName { get; set; }
 
         public string TaxCode { get; set; }
+
+        public string CompanyName { get; set; }
+
+        public string ContactEmail { get; set; }
+
+        public bool IsVerified { get; set; }
 
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 

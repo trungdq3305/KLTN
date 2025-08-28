@@ -13,7 +13,7 @@ namespace CoreService.Repository.Models
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; }
-
+        [BsonRepresentation(BsonType.ObjectId)]
         public string RoleId { get; set; }
 
         public string PhoneNumber { get; set; }
@@ -26,7 +26,11 @@ namespace CoreService.Repository.Models
 
         public bool Gender { get; set; }
 
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public DateTime? LastLoginAt { get; set; }
+
+        public string RefreshToken { get; set; }
+
+        public DateTime CreatedAt { get; set; }
 
         public DateTime? UpdatedAt { get; set; }
 

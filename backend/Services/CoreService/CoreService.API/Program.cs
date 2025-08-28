@@ -1,7 +1,9 @@
 using CoreService.Application;
+using CoreService.Application.DTOs.ApiResponse;
 using CoreService.Common.Helpers;
 using CoreService.Repository;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using MongoDB.Driver;
@@ -67,18 +69,28 @@ builder.Services.AddSwaggerGen(option =>
 
 });
 
+
+
+
 builder.Services.AddHttpClients(builder.Configuration);
-builder.Services.AddControllers();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 
-builder.Services.AddControllers().AddJsonOptions(options =>
+builder.Services.AddControllers(options =>
+{
+    options.Filters.Add<ValidationFilter>(); // ? Add filter ?? check ModelState
+})
+.AddJsonOptions(options =>
 {
     options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
     options.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.Never;
 });
 
+builder.Services.Configure<ApiBehaviorOptions>(options =>
+{
+    options.SuppressModelStateInvalidFilter = true; // ? Không ?? framework t? return 400
+});
 var app = builder.Build();
 using (var scope = app.Services.CreateScope())
 {
@@ -93,6 +105,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseMiddleware<ExceptionMiddleware>();
 
 app.UseAuthentication();   // ? parse token tr??c
 app.UseAuthorization();    // ? check role/claim

@@ -52,12 +52,7 @@ namespace CoreService.Application.Applications
             var existingUser = await _accountRepo.GetByEmailAsync(request.Email);
             if (existingUser != null)
             {
-                return new ApiResponse<string>(
-                    data: null,
-                    success: false,
-                    message: "Email already exists",
-                    statusCode: StatusCodes.Status400BadRequest
-                );
+                throw new ApiException("Email already exists", StatusCodes.Status400BadRequest);
             }
 
             string roleId = request.Role switch
@@ -70,12 +65,7 @@ namespace CoreService.Application.Applications
 
             if (roleId == null)
             {
-                return new ApiResponse<string>(
-                    data: null,
-                    success: false,
-                    message: "Invalid role",
-                    statusCode: StatusCodes.Status400BadRequest
-                );
+                throw new ApiException("Invalid role", StatusCodes.Status400BadRequest);
             }
 
             var acc = new Account
@@ -83,7 +73,8 @@ namespace CoreService.Application.Applications
                 Id = null,
                 Email = request.Email,
                 Password = HashPassword(request.Password),
-                RoleId = roleId
+                RoleId = roleId,
+                CreatedAt = TimeConverter.ToVietnamTime(DateTime.UtcNow),
             };
 
             await _accountRepo.AddAsync(acc);
@@ -95,6 +86,7 @@ namespace CoreService.Application.Applications
                 statusCode: StatusCodes.Status200OK
             );
         }
+
 
         private string HashPassword(string password)
         {
